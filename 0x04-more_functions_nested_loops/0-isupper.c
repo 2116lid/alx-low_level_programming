@@ -10,7 +10,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else if
+	else
 	{
 		return (0);
 	}
