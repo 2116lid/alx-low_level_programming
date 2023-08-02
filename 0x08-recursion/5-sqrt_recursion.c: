@@ -1,0 +1,3 @@
+qrt_recursion.c:16:2: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |  int a = sqrt(n);
+      |  ^~~
