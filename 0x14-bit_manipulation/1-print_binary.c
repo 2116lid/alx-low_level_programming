@@ -8,16 +8,21 @@
  */
 void print_binary(unsigned long int n)
 {
+	int i, j = 0;
 	unsigned long int check;
 
-	check = 1UL << ((sizeof(unsigned long int) * 8) - 1);
-
-	while (check > 0)
+	for (i = 63; i >= 0; i--)
 	{
-		if (n & check)
+		check = n >> i;
+
+		if (check & 1)
+		{
 			_putchar('1');
-		else
+			j++;
+		}
+		else if (j != 0)
 			_putchar('0');
-		check = check >> 1;
 	}
+	if (j == 0)
+		_putchar('0');
 }
