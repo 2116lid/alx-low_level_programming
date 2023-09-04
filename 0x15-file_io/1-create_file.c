@@ -11,7 +11,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, k = 0, wri;
+	int fd, k, wri;
 
 	k = strlen(text_content);
 
