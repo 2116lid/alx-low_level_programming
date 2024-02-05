@@ -3,7 +3,7 @@
 /**
  * linear_search - a function that searches for a value using
  * Linear search algorithm.
- * @*array: pointer to the first element of the array to search in.
+ * @array: pointer to the first element of the array to search in.
  * @size: the number of elements in the array.
  * @value: is the value to search for.
  *
@@ -22,7 +22,6 @@ int linear_search(int *array, size_t size, int value)
 		{
 			printf("Value checked array[%ld] = [%d]\n", i, array[i]);
 			return (i);
-			break;
 		}
 		else
 		{
