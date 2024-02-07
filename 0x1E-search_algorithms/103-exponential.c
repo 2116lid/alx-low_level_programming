@@ -4,7 +4,7 @@
   * new_binary_search - Searches for a value in a sorted array
   * of integers using binary search.
   * @array: A pointer to the first element of the array to search.
-  * @i: The starting index of the [sub]array to search.
+  * @k: The starting index of the [sub]array to search.
   * @j: The ending index of the [sub]array to search.
   * @value: The value to search for.
   *
